@@ -5,12 +5,12 @@
   .responsive-svg {
     width: auto;
     height: 40%;
-    margin-top: 400px; /* Adjust this value to add space above the SVG */
+    margin-top: 800px; /* Adjust this value to add space above the SVG */
     margin-bottom: 500px;
   }
   .responsive-svg2 {
-    width: auto;
-    height: 40%;
+    width: 100%;
+    height: auto;
     margin-top: 1000px; /* Adjust this value to add space above the SVG */
     margin-bottom: 0px;
   }
@@ -19,30 +19,201 @@
     margin: 0;
     font-family: Karma;
   }
-
   .pink-bar {
     background-color: #F4BBC9;
-    padding: 30px 20px; 
+    height: 120px; /* Set a specific height */
     color: white;
-    text-align: right;
-    font-size: large;
+    font-size: 32px;
     display: flex;
     justify-content: flex-end;
+    align-items: center; /* Center items vertically within the bar */
     gap: 50px; 
   }
+  .centeredtext {
+    text-align: left;
+    position:absolute; 
+    font-size: 70px;
+    font-family: Karma;
+    color: #BA737C; 
+    top: 18%;
+    left: 5%; 
+    
+  }
+
+  .centeredtext2 {
+    margin-top: 70px;
+    text-align: left;
+    position:absolute; 
+    font-size: 40px;
+    font-family: Karma;
+    color: #BA737C; 
+    top: 58%;
+    left: 5%; 
+  }
+  .imghelp
+  {
+    position:absolute; 
+    right: 2%; 
+    top: 18%; 
+    width: 45%; 
+    height: auto; 
+  }
+  .logohelp
+  {
+    position: absolute;
+    left:2%;  
+    top: 1%;  
+    width: 312px; 
+    height: 125px; 
+  }
+  .imgtwohelp
+  {
+    position:absolute; 
+    left: 5%; 
+    top: 150%; 
+    width: 644px; 
+    height: 644px; 
+
+  }
+  .bold-letter
+  {
+    font-weight: bold;
+  }
+  .frame
+  {
+    width: 100%; 
+    height:100%;  
+    position: absolute; 
+    justify-content:space-evenly; 
+    align-items: flex-start; 
+    display: inline-flex;
+  }
+  .icons
+  {
+    width: 25%; 
+    height: 70%; 
+    position: relative;
+  }
+  .iconStyle
+  {
+    width: 100%; 
+    height: 100%; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 60px
+  }
+  .icon_img
+  {
+    width: 50%; 
+    height: auto; 
+    margin-left: 25%; 
+    margin-top: 15%; 
+    margin-right: auto; 
+    position: absolute;
+  }
+  .icon_text
+  {
+    width: 80%; 
+    height: 40.67px;  
+    margin-left:10%; 
+    margin-right:10%;  
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 42px; 
+    font-family: Karma; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+  .button_icon_style
+  {
+    width: 290px; 
+    height: 100%; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    cursor: pointer; 
+    z-index: 1; 
+    background-color: transparent; 
+    border: 0px;
+
+  }
+
 </style>
 </head>
 <body>
+
   <div class="pink-bar">
     <div>Learn</div>
     <div>Event</div>
     <div>About Us</div>
+    <div style = "margin-right : 2%;"> Contact Us  </div>
+  </div>
+
+  <div class="centeredtext"> 
+    <div>
+      <span class="bold-letter">W</span>omen's
+    </div>
+    <div>
+      <span class="bold-letter">H</span>ealth
+    </div>
+    <div>
+      <span class="bold-letter">E</span>ducation and
+    </div>
+    <div>
+      <span class="bold-letter">A</span>wareness
+    </div>
+    <div>
+      <span class="bold-letter">T</span>oday
+    </div>
+  </div>
+
+  <div class = "centeredtext2">
+    <div>Amplifying California's sex education </div>
+    <div>curriculum one high school at a time. </div>
+    <a href = "https://www.figma.com/design/lvjIuqZ4kz70CxWHCQYEna/wheat-website-ideas?node-id=46-67&node-type=FRAME&t=W2AmihV3IfdQYFZz-0">
+    <button style = "margin-top: 60px; background-color: #F4BBC9;color:white;border-radius:5px; border-style: none; font-family: Karma; width: 400px; height: 60px; font-size: 39px;">Learn More → </button>
+  </a>
+    </div>
+    <div class="imghelp">
+      <img src ="images/fourwomen.png" />
+    </div>
+    <div class="logohelp">
+      <img src = "images/wheatlogo.png" />
+    </div>
+    <div class="imgtwohelp">
+      <img src = "images/threewomen.png" />
   </div>
   <svg class="responsive-svg" viewBox="0 0 1440 1328" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 75.81C0 75.81 429.5 557.458 706 198.986C982.5 -159.486 1440 75.81 1440 75.81V1258.52C1440 1258.52 872.5 772.041 706 1127.08C539.5 1482.11 0 1258.52 0 1258.52V75.81Z" fill="#F4BBC9"/>
   </svg>
+  <div class="frame">
+    <div class="icons">
+      <div class="iconStyle" style="background: #BA737C;">
+      </div>
+      <img class="icon_img" src="images/phone icon.png" />
+      <div class="icon_text"style = "top:57%;">Call 1-800-230-PLAN to make an appointment for health care services.</div>
+      <button class="button_icon_style"></button> 
+    </div> 
+    <div class="icons">
+      <div class="iconStyle" style="background: #F191AC;">
+      </div>
+      <img class="icon_img" src="images/uterus icon.png" />
+      <div class="icon_text"style = "top:60%;">If you need abortion care, visit abortionfinder.org</div>
+      <button class="button_icon_style"></button> 
+    </div> 
+    <div class="icons">
+      <div class="iconStyle" style= "background: #F4BBC9;">
+      </div>
+      <img class="icon_img" src="images/test icon.png" />
+      <div class="icon_text" style = "top:53%;">HPV is the top cause of cervical cancer in women. Testing is free for many eligible women & saves lives.</div>
+      <button class="button_icon_style"></button> 
+    </div> 
+  </div>
   <svg class="responsive-svg2" width="1440" height="1149" viewBox="0 0 1440 1149" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 74.6077C0 74.6077 429.5 548.617 706 195.83C982.5 -156.956 1440 74.6077 1440 74.6077V1149C1440 1149 1088.5 1149 703.5 1149C318.5 1149 0 1149 0 1149V74.6077Z" fill="#F4BBC9"/>
   </svg>
+  
 </body>
 </html>
