@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/vidhitapde/wheat_website/wheat/index.html"
+            "file": "/Users/vidhitapde/wheat-1/index.html"
         }
     ]
 }
